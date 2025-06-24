@@ -10,7 +10,7 @@ const api = axios.create({
     },
     timeout: 5000
 });
-// In api/index.jsx
+
 api.interceptors.request.use(
   (config) => {
     const state = store.getState();
