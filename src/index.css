@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .btn {
+    @apply p-button rounded-common;
+  }
+  
+  .input-field {
+    @apply p-input rounded-common;
+  }
+  @layer components {
+  .form-group {
+    @apply flex flex-col gap-1;
+  }
+  
+  .form-label {
+    @apply font-medium text-form-label text-gray-700;
+  }
+  
+  .form-error {
+    @apply text-error text-error mt-1;
+  }
+}
+}
