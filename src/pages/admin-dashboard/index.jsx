@@ -111,6 +111,8 @@ const AdminDashboard = () => {
         onSort={handleSort}
         sortConfig={sortConfig}
         itemsPerPage={5}
+        className="py-10"
+      
       />
 
       <CustomModal

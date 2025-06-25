@@ -45,7 +45,7 @@ const onSubmit = async (values) => {
 if (response.status === 200 && token && user) {
   dispatch(setUser(user));
   dispatch(setToken(token));
-  localStorage.setItem("token", token); // <-- Add this line
+  localStorage.setItem("token", token); 
   dispatch(setError(null));
   setSuccessMessage(message || "Login success");
   setIsSuccess(true);

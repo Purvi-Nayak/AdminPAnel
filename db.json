@@ -275,17 +275,6 @@
       "updatedAt": "2025-06-24T08:33:19.942Z"
     },
     {
-      "title": ".net",
-      "description": "fd dfg dfgdfg dfgdfgfd",
-      "status": "Approved",
-      "dueDate": "2025-07-04",
-      "userId": 2,
-      "createdAt": "2025-06-24T06:46:51.904Z",
-      "id": 61,
-      "rowIndex": 22,
-      "updatedAt": "2025-06-24T08:33:10.406Z"
-    },
-    {
       "title": "node",
       "description": "node is run time environment ",
       "status": "Rejected",

@@ -57,12 +57,10 @@ const useRegistration = () => {
 
       if (userExists) {
         setIsSuccess(false);
-        // setErrorMessage("User already exists with this email.");
         setAlertOpen(true);
         return;
       }
 
-      // Register the user
       const response = await api.USERS.register({
         data: {
           name: values.name,

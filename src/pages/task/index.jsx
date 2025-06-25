@@ -147,7 +147,8 @@ const Task = () => {
             emptyMessage="No tasks found"
             onSort={handleSort}
             sortConfig={sortConfig}
-            itemsPerPage={10}
+            itemsPerPage={5}
+            className="py-10"
           />
         )}
       </div>
