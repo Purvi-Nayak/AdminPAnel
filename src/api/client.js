@@ -7,8 +7,9 @@ export const api = {
       client({ method: METHODS.POST, url: "/users", data, ...config }),
     login: ({ data, ...config }) =>
       client({
-        method: METHODS.GET,
-        url: `/users?email=${data.email}&password=${data.password}`,
+        method: METHODS.POST,
+        url: `/login`,
+        data,
         ...config,
       }),
 

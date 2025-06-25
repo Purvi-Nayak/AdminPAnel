@@ -10,9 +10,9 @@
     {
       "name": "ronak",
       "email": "ronakgami@gmail.com",
-      "password": "Test@1212",
+      "password": "Test@121212",
       "role": "user",
-      "updatedAt": "2025-06-24T10:16:38.632Z",
+      "updatedAt": "2025-06-25T09:29:03.271Z",
       "id": 2
     },
     {
@@ -42,10 +42,11 @@
     {
       "name": "Pall",
       "email": "pall@gmail.com",
-      "password": "Test@1212",
+      "password": "Test@12123",
       "role": "user",
       "createdAt": "2025-06-18T12:20:24.566Z",
-      "id": 11
+      "id": 11,
+      "updatedAt": "2025-06-25T06:11:41.802Z"
     },
     {
       "name": "rohan",
@@ -88,51 +89,72 @@
       "role": "user",
       "createdAt": "2025-06-24T11:39:48.691Z",
       "id": 16
+    },
+    {
+      "name": "palak",
+      "email": "palaknewnew@yopmail.com",
+      "password": "Test@1234",
+      "role": "user",
+      "id": 22
+    },
+    {
+      "name": "PAYAL",
+      "email": "palllllllll@gmail.com",
+      "password": "Test@1234",
+      "role": "user",
+      "id": 23
+    },
+    {
+      "name": "Pal",
+      "email": "palaknewtwo@yopmail.com",
+      "password": "Test@1234",
+      "role": "user",
+      "id": 24
+    },
+    {
+      "name": "Pal",
+      "email": "paldasd@gmail.com",
+      "password": "Test@1234",
+      "role": "user",
+      "id": 27
+    },
+    {
+      "name": "saasd",
+      "email": "sasa@gmail.com",
+      "password": "Test@1234",
+      "role": "user",
+      "id": 28
+    },
+    {
+      "name": "Pal",
+      "email": "pal@gmail.com",
+      "password": "Test@1212",
+      "role": "user",
+      "id": 29
+    },
+    {
+      "name": "kinjal",
+      "email": "kinjal@gmail.com",
+      "password": "Test@1212",
+      "role": "user",
+      "id": 30
+    },
+    {
+      "name": "PAYAL",
+      "email": "p@gmail.com",
+      "password": "Test@1234",
+      "role": "admin",
+      "id": 31
+    },
+    {
+      "name": "krimahi",
+      "email": "krimahi@gmail.com",
+      "password": "Tesr@1212",
+      "role": "user",
+      "id": 32
     }
   ],
   "tasks": [
-    {
-      "status": "Approved",
-      "title": "hfgh fghfgh fgh gfdgfdgfdgdfgdfgdfg",
-      "description": "g hfg hfghfgh fghfgh pppppp",
-      "dueDate": "2025-07-04",
-      "userId": 4,
-      "createdAt": "2025-06-16T12:45:33.765Z",
-      "id": 15,
-      "rowIndex": 1,
-      "updatedAt": "2025-06-20T11:11:14.740Z"
-    },
-    {
-      "title": "fhfgdhfh",
-      "description": "hgfh gh fghgf hgh",
-      "status": "Approved",
-      "dueDate": "2025-06-26",
-      "userId": 4,
-      "createdAt": "2025-06-17T06:25:48.392Z",
-      "id": 16,
-      "rowIndex": 2,
-      "updatedAt": "2025-06-19T11:22:46.431Z"
-    },
-    {
-      "title": "gfh fg hfgh",
-      "description": "g hgfh fgh fg gfhfgh",
-      "status": "Approved",
-      "dueDate": "2025-06-27",
-      "userId": 4,
-      "createdAt": "2025-06-17T06:25:57.871Z",
-      "id": 17,
-      "rowIndex": 7
-    },
-    {
-      "status": "Approved",
-      "title": "tytyrt tt",
-      "description": " tyt ty ty try tyrty tt",
-      "dueDate": "2025-07-03",
-      "userId": 4,
-      "createdAt": "2025-06-17T06:44:14.402Z",
-      "id": 19,
-      "rowIndex": 8
-    },
     {
       "status": "Rejected",
       "title": "dfgd fgdf dfg",
@@ -163,61 +185,6 @@
       "createdAt": "2025-06-17T12:09:04.715Z",
       "id": 23,
       "rowIndex": 11
-    },
-    {
-      "title": "fg sdfg dfg",
-      "description": "fd gdfg dfgdfgdfg",
-      "status": "Approved",
-      "dueDate": "2025-06-26",
-      "userId": 4,
-      "createdAt": "2025-06-18T04:45:26.879Z",
-      "id": 24,
-      "rowIndex": 12,
-      "updatedAt": "2025-06-18T04:46:12.371Z"
-    },
-    {
-      "title": "d fgdf gfd",
-      "description": "fd gdfg dfgdff dgdfg fdgdfg",
-      "status": "Rejected",
-      "dueDate": "2025-07-03",
-      "userId": 4,
-      "createdAt": "2025-06-18T04:45:37.318Z",
-      "id": 25,
-      "rowIndex": 13,
-      "updatedAt": "2025-06-18T04:46:13.859Z"
-    },
-    {
-      "title": "fggggg",
-      "description": " dfg d dfgdfgdf",
-      "status": "Approved",
-      "dueDate": "2025-06-25",
-      "userId": 4,
-      "createdAt": "2025-06-18T04:45:49.542Z",
-      "id": 26,
-      "rowIndex": 14,
-      "updatedAt": "2025-06-18T04:46:14.899Z"
-    },
-    {
-      "title": "gsdfg fg",
-      "description": " fgfdg fgfdgfgfgdfgg",
-      "status": "Approved",
-      "dueDate": "2025-06-28",
-      "userId": 4,
-      "createdAt": "2025-06-18T05:12:50.433Z",
-      "id": 30,
-      "rowIndex": 17,
-      "updatedAt": "2025-06-19T06:05:58.017Z"
-    },
-    {
-      "title": "fgdg",
-      "description": "fdg   gfdgfdgfdgfdg dfg",
-      "status": "Rejected",
-      "dueDate": "2025-06-28",
-      "userId": 4,
-      "createdAt": "2025-06-18T05:12:58.511Z",
-      "id": 31,
-      "rowIndex": 18,
-      "updatedAt": "2025-06-19T06:06:05.953Z"
     },
     {
       "title": " dfhfgh",
@@ -317,6 +284,26 @@
       "id": 61,
       "rowIndex": 22,
       "updatedAt": "2025-06-24T08:33:10.406Z"
+    },
+    {
+      "title": "node",
+      "description": "node is run time environment ",
+      "status": "Rejected",
+      "dueDate": "2025-06-27",
+      "userId": 11,
+      "createdAt": "2025-06-25T09:31:45.870Z",
+      "id": 62,
+      "rowIndex": 13,
+      "updatedAt": "2025-06-25T09:33:23.707Z"
+    },
+    {
+      "title": "mongoo db",
+      "description": "mongo db is backend database",
+      "status": "In Progress",
+      "dueDate": "2025-07-04",
+      "userId": 11,
+      "createdAt": "2025-06-25T09:32:49.430Z",
+      "id": 63
     }
   ]
 }

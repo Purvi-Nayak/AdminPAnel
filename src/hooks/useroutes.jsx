@@ -38,7 +38,7 @@ const useRoute = () => {
         isPrivate: true,
       },
       {
-        id: "admin-dashboard",
+        id: "admin",
         path: URLS.ADMIN,
         element: AdminDashboard,
         isPrivate: true,
